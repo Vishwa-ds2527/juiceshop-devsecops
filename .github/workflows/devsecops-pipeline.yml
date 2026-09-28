@@ -13,7 +13,11 @@ on:
     branches: [ "main", "develop" ]
 
 env:
+<<<<<<< HEAD
   NODE_VERSION: "22"
+=======
+  NODE_VERSION: "22.22.3"
+>>>>>>> 0f57a08 (Update Node.js version to 22)
   IMAGE_NAME: juiceshop-devsecops
 
 jobs:
